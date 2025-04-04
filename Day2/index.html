@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container_block {
+        width: 500px;
+        background-color: antiquewhite;
+      }
+
+      .container_inline1 {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        /* margin: 100px; */
+      }
+
+      .container_inline2 {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        background-color: green;
+      }
+
+      .container_inline3 {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- display: inline, inline-block, block-->
+
+    <!-- Display: block 
+        => Những khối có bề ngang của thẻ chiếm hết 100% khoảng hiển thị nó có thể 
+        => Chỉnh được toàn bộ có thuộc tính css liên quan tới kích thước
+        => Những thẻ nào có display là block thì luôn nằm khác hàng nhau
+        => thẻ Div, thẻ p, thẻ h1 từ 1 đến 6
+    -->
+    <div class="container_block">
+      <h1>Display: block</h1>
+    </div>
+
+    <div class="container_block">
+      <h1>Display: block</h1>
+    </div>
+
+    <hr />
+
+    <!-- Display: inline
+        => Những thẻ mà có dislay inline thì nằm liền nhau theo bề ngang 
+        => Không chỉnh width và height, không chỉnh được margin top và bottom
+        => thẻ b, u, i, span, a
+    -->
+
+    <!-- Display: inline-block
+        => Những thẻ có display inline block là sự kết hợp giữa inline và block
+        => Những thẻ có display inline block vẫn nằm ngang hàng với nhau và chỉnh full css
+        
+    -->
+
+    <div class="container_inline1">
+      <u> Nguyễn </u>
+    </div>
+
+    <div class="container_inline2">
+      <b> Danh </b>
+    </div>
+
+    <div class="container_inline3">
+      <i> Phuong </i>
+    </div>
+  </body>
+</html>
