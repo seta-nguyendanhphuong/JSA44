@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .modal {
+        width: 300px;
+        height: 300px;
+        border: 2px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Thuộc tính onclick sẽ nhận vào tên của 1 hàm
+         Mỗi lần bấm nút thì hàm đó sẽ được gọi 1 lần -->
+    <button onclick="printMyName()">Click me</button>
+    <!--  -->
+    <button onclick="changeColor()">Change Color</button>
+    <h2 id="textColor">Change color is here</h2>
+    <!--  -->
+    <button>Change Name</button>
+    <h1>Nguyen Danh Phuong</h1>
+
+    <button>Open Modal</button>
+    <!-- <p>Close modal thành công</p> -->
+    <p>Save modal thành công</p>
+    <!-- <div class="modal">
+      <button>Close</button>
+      <button>Save</button>
+    </div> -->
+    <script src="./DomEvent.js"></script>
+  </body>
+</html>
