@@ -6,7 +6,7 @@ console.log(elementClassNameLine1[1].innerText);
 console.log(elementClassNameLine1[2].innerText);
 
 // querySelector(value): Lấy thẻ giống cách lấy trong CSS:
-// value: tên id, tên class, tên thẻ, ...
+// value: # + tên id, . + tên class, tên thẻ, ...
 // Lấy ra thẻ đầu tiên được phát hiện
 
 // querySelectorAll(value)
